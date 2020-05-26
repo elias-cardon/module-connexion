@@ -1,7 +1,34 @@
 <?php
 session_start();
 if ($_SESSION['login']) {
-	echo "<nav><a href='index.php'>Accueil</a></nav>
+	echo "
+	<html>
+<head>
+<title>Profil</title>
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' />
+<link href='default.css' rel='stylesheet' type='text/css' media='all' />
+<link href='fontawesome-templategit.css' rel='stylesheet' type='text/css' media='all' />
+</head>
+<body>
+<div id='header-wrapper'>
+	<div id='header' class='container'>
+		<div id='logo'>
+			<h1><a href='#'>Botanique</a></h1>
+		</div>
+		<div id='menu'>
+			<ul=>
+				<li><a href='#' accesskey='1' title=''>Page d'accueil</a></li>
+				<li><a href='#' accesskey='2' title=''>++++++++++</a></li>
+				<li><a href='#' accesskey='3' title=''>++++++++++</a></li>
+				<li><a href='#' accesskey='4' title=''>++++++++++</a></li>
+				<li><a href='#' accesskey='5' title=''>++++++++++</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+</body>
+</html>
 	<p>Bienvenue ".$_SESSION['login']. " ! <br/><br/>
 
 	<a href='changement_mdp.php'>Changer de mot de passe</a><br/>
@@ -36,7 +63,7 @@ p
 	font-size: 16pt;
 	font-weight: 400;
 	line-height: 1.75em;
-	color : black;
+	color : white;
 }
 
 .input
@@ -47,7 +74,7 @@ p
 
 body
 {
-	background-color: #E4E0E0;
+	  background-image: linear-gradient(#95a445, #844613);
 }
 </style>';
 ?>
