@@ -29,18 +29,36 @@ if (isset($_POST['submit'])) {
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<title>Connexion</title>
-		<link rel="icon" type="image/png" href="images/avatar.png">
+		<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Connexion</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fontawesome-templategit.css" rel="stylesheet" type="text/css" media="all" />
 	</head>
 	<body class="color">
 		<!-- Header -->
-			<header id="header">
-				<nav><a href="index.php">Accueil</a> | <a href="inscription.php">Inscription</a></nav>
-			</header>
+			<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="#">Botanique</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="#" accesskey="1" title="">Page d'accueil</a></li>
+				<li><a href="#" accesskey="2" title="">++++++++++</a></li>
+				<li><a href="#" accesskey="3" title="">++++++++++</a></li>
+				<li><a href="#" accesskey="4" title="">++++++++++</a></li>
+				<li><a href="#" accesskey="5" title="">++++++++++</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
 			<!-- Main -->
 		<main>
-			<h1>Connexion</h1>
+			<h1 id="connexion">Connexion</h1>
 				<form method="post" action="connexion.php">
         			<p>Login</p>
         			<input class="input" type="text" name="login">
@@ -49,31 +67,12 @@ if (isset($_POST['submit'])) {
         			<input class="input" type="submit" name="submit" value="Valider"><br/>
 				</form>
 		</main>
-		<!-- Footer -->
-			<!-- <footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</div>
-			</footer> -->
-
-		<!-- Scripts -->
-			<!-- <script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script> -->
 	</body> 
 </html>
 
 <?php
 echo '<style>
-h1
+#connexion
 {
 	text-align : center;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -86,7 +85,6 @@ p
 	font-size: 16pt;
 	font-weight: 400;
 	line-height: 1.75em;
-	color : black;
 }
 
 .input
@@ -95,9 +93,9 @@ p
 	margin:auto;
 }
 
-.color
+body
 {
-	background-color: #E4E0E0;
+	background-image: linear-gradient(#95a445, #844613);
 }
 </style>';
 ?>

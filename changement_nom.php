@@ -64,7 +64,6 @@ p
 	font-size: 16pt;
 	font-weight: 400;
 	line-height: 1.75em;
-	color : black;
 }
 
 .input
@@ -75,7 +74,7 @@ p
 
 body
 {
-	background-color: #E4E0E0;
+	background-image: linear-gradient(#95a445, #844613);
 }
 </style>';
 ?>

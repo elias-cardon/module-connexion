@@ -75,7 +75,7 @@ p
 
 body
 {
-	background-color: #E4E0E0;
+	background-image: linear-gradient(#95a445, #844613);
 }
 </style>';
 ?>
