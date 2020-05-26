@@ -68,7 +68,7 @@ p
 
 body
 {
-	  background-image: linear-gradient(#95a445, #844613);
+	background-image: linear-gradient(#95a445, #844613);
 }
 </style>';
 ?>

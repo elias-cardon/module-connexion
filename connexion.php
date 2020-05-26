@@ -47,9 +47,9 @@ if (isset($_POST['submit'])) {
 		</div>
 		<div id="menu">
 			<ul>
-				<li><a href="#" accesskey="1" title="">Page d'accueil</a></li>
-				<li><a href="#" accesskey="2" title="">++++++++++</a></li>
-				<li><a href="#" accesskey="3" title="">++++++++++</a></li>
+				<li><a href="index.php" accesskey="1" title="">Page d'accueil</a></li>
+				<li><a href="inscription.php" accesskey="2" title="">Inscription</a></li>
+				<!-- <li><a href="connexion.php" accesskey="3" title="">Connexion</a></li> -->
 				<li><a href="#" accesskey="4" title="">++++++++++</a></li>
 				<li><a href="#" accesskey="5" title="">++++++++++</a></li>
 			</ul>

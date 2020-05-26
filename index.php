@@ -19,15 +19,15 @@
 		<div id="menu">
 			<ul>
 				<li><a href="#" accesskey="1" title="">Page d'accueil</a></li>
-				<li><a href="#" accesskey="2" title="">++++++++++</a></li>
-				<li><a href="#" accesskey="3" title="">++++++++++</a></li>
+				<li><a href="inscription.php" accesskey="2" title="">Inscription</a></li>
+				<li><a href="connexion.php" accesskey="3" title="">Connexion</a></li>
 				<li><a href="#" accesskey="4" title="">++++++++++</a></li>
 				<li><a href="#" accesskey="5" title="">++++++++++</a></li>
 			</ul>
 		</div>
 	</div>
 	<div id="banner" class="container">
-	<p>L'été arrive ! Et de nouveau stock de plante aussi ! en tête de liste tournesol, Lupin, Laurier-rose, Lavande bien d'autres choix.</p>
+	<p>L'été arrive ! Et de nouveau stock de plante aussi ! En tête de liste tournesol, Lupin, Laurier-rose, Lavande et bien d'autres choix.</p>
 	</div>
 </div>
 <div id="page-wrapper">

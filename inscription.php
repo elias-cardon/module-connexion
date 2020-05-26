@@ -37,15 +37,32 @@ if(isset($_POST['submit']))
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<title>Inscription</title>
-		<link rel="icon" type="image/png" href="images/avatar.png">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Inscription</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fontawesome-templategit.css" rel="stylesheet" type="text/css" media="all" />
 	</head>
 	<body class="color">
 		<!-- Header -->
-			<header id="header">
-				<nav><a href="index.php">Accueil</a> | <a href="connexion.php">Connexion</a></nav>
-			</header>
+						<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="#">Botanique</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="index.php" accesskey="1" title="">Page d'accueil</a></li>
+				<!-- <li><a href="inscription.php" accesskey="2" title="">Inscription</a></li> -->
+				<li><a href="connexion.php" accesskey="3" title="">Connexion</a></li>
+				<li><a href="#" accesskey="4" title="">++++++++++</a></li>
+				<li><a href="#" accesskey="5" title="">++++++++++</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
 			<!-- Main -->
 		<main>
 			<h1>Inscription</h1><br/>
@@ -105,9 +122,10 @@ p
 	margin:auto;
 }
 
-.color
+body
 {
-	background-color: #E0D8E0;
+	background-image: linear-gradient(#95a445, #844613);
+	background-repeat : no-repeat;
 }
 </style>';
 ?>
