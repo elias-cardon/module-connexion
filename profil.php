@@ -7,6 +7,11 @@ if ($_SESSION['login']) {
 	<a href='changement_mdp.php'>Changer de mot de passe</a><br/>
 
 	<a href='changement_login.php'>Changer de login</a><br/>
+
+	<a href='changement_prenom.php'>Changer de prénom</a><br/>
+
+	<a href='changement_nom.php'>Changer de nom</a><br/>
+
 	<a href='logout.php'>Se déconnecter</a></p>";
 }
 else
