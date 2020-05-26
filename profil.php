@@ -14,7 +14,7 @@ if ($_SESSION['login']) {
 <div id='header-wrapper'>
 	<div id='header' class='container'>
 		<div id='logo'>
-			<h1><a href='#'>Botanique</a></h1>
+			<h1><a href='index.php'>Botanique</a></h1>
 		</div>
 		<div id='menu'>
 			<ul=>
@@ -50,12 +50,6 @@ else
 
 <?php
 echo '<style>
-h1
-{
-	text-align : center;
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
-	text-decoration : underline;
-}
 p
 {
 	text-align : center;
