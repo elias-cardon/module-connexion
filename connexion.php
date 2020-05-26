@@ -2,14 +2,12 @@
 session_start();
 if (isset($_POST['submit'])) {
 	$login = $_POST['login'];
-	$prenom = htmlentities(trim($_POST['prenom']));
-	$nom = htmlentities(trim($_POST['nom']));
 	$password = $_POST['password'];
-	if ($login && $prenom && $nom && $password) {
+	if ($login && $password) {
 		$db = mysqli_connect('localhost', 'root', '');
 		mysqli_select_db($db, 'moduleconnexion');
 
-		$query = mysqli_query($db, "SELECT * FROM utilisateurs WHERE login='$login' && prenom='$prenom' && nom='$nom' && password='$password'");
+		$query = mysqli_query($db, "SELECT * FROM utilisateurs WHERE login='$login' && password='$password'");
 		$rows = mysqli_num_rows($query);
 		if ($rows==1) {
 			$_SESSION['login'] = $login;
@@ -46,10 +44,6 @@ if (isset($_POST['submit'])) {
 				<form method="post" action="connexion.php">
         			<p>Login</p>
         			<input class="input" type="text" name="login">
-        			<p>Prénom</p>
-        			<input class="input" type="text" name="prenom">
-        			<p>Nom</p>
-        			<input class="input" type="text" name="nom">
         			<p>Mot de passe</p>
         			<input class="input" type="password" name="password"><br/><br/>
         			<input class="input" type="submit" name="submit" value="Valider"><br/>
