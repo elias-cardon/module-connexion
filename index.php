@@ -18,7 +18,7 @@
 		</div>
 		<div id="menu">
 			<ul>
-				<li><a href="#" accesskey="1" title="">Page d'accueil</a></li>
+				<li><a href="index.php" accesskey="1" title="">Page d'accueil</a></li>
 				<li><a href="inscription.php" accesskey="2" title="">Inscription</a></li>
 				<li><a href="connexion.php" accesskey="3" title="">Connexion</a></li>
 				<li><a href="#" accesskey="4" title="">++++++++++</a></li>
@@ -39,28 +39,28 @@
 			<div class="padding-bottom">
 				<h2>Le Tournesol</h2>
 				<img src="images/img01.jpg" alt="" />
-				<p>Le tournesol, ou anciennement Hélianthe ou Soleil, est une grande plante annuelle, appartenant à la famille des Astéracées. Le genre Helianthus comprend une cinquantaine d'espèces...</p>
-				<a href="https://fr.wikipedia.org/wiki/Tournesol" class="button">En savoir plus</a>
+				<p>Plantes traditionnelles de nos étés, les tournesols, fiers de leurs floraisons flamboyantes et éclatantes, sont des plantes faciles à réussir. Peu exigeantes, parfois même envahissantes, elles orneront votre jardin pour le plaisir des petits et des grands.</p>
+				<a href="https://www.gerbeaud.com/jardin/fiches/tournesol.php" class="button">En savoir plus</a>
 			</div>
 			<div>
 				<h2>Le Lupin</h2>
 				<img src="images/img02.jpg" alt="" />
-				<p>Les lupins, est un genre de plantes dicotylédones de la famille des Fabaceae, originaire des régions tempérées de l'Ancien Monde et du Nouveau Monde, qui regroupe plus de 600 espèces acceptées.</p>
-				<a href="https://fr.wikipedia.org/wiki/Lupin" class="button">En savoir plus</a>
+				<p>Les lupins se déclinent en de nombreuses espèces, vivaces ou annuelles, de tailles et de coloris divers. Cette plante est un classique du jardin depuis des décennies. Les épis coniques de sa floraison habillent de leurs douces nuances pastels ou vives, les massifs et bordures, tout au long de la belle saison.</p>
+				<a href="https://www.aujardin.info/plantes/lupin.php" class="button">En savoir plus</a>
 			</div>
 		</div>
 		<div class="tbox2">
 			<div class="padding-bottom">
 				<h2>Le laurier-rose</h2>
 				<img src="images/img03.jpg" alt="" />
-				<p>Le Laurier-rose est une espèce d'arbustes ou de petits arbres de la famille des Apocynacées. Cette espèce est présente sur les deux rives de la Méditerranée mais de façon plus éparse sur la rive nord.</p>
-				<a href="https://fr.wikipedia.org/wiki/Laurier-rose" class="button">En savoir plus</a>
+				<p>Superbe arbuste résistant à la sécheresse au succès mérité malgré sa toxicité, le laurier-rose (Nerium oleander) quitte volontiers notre Midi pour jouer plus au Nord les stars de l’été à condition d’être cultivé dans de gros pots permettant de l’abriter du froid dès l’automne.</p>
+				<a href="https://www.rustica.fr/arbres-et-arbustes/laurier-rose,3005.html" class="button">En savoir plus</a>
 			</div>
 			<div>
 				<h2>La Lavande</h2>
 				<img src="images/img04.jpg" alt="" />
-				<p>Lavandula est un genre de plantes à fleurs le plus souvent mauves ou violettes disposées en épis, dont la plupart des espèces très odorantes, sont largement utilisées dans toutes les branches de la parfumerie</p>
-				<a href="https://fr.wikipedia.org/wiki/Lavande" class="button">En savoir plus</a>
+				<p>Un feuillage gris argenté et un parfum toute l’année, des fleurs la moitié de l’année, la lavande est une de ces plantes faciles à vivre qui offrent toujours un effet décoratif au jardin. Elle y a d’ailleurs sa place dans les rocailles, les massifs, les bordures et haies basses. Et sur les balcons et terrasses, elle tient si bien en pot qu’elle sera vite adoptée.</p>
+				<a href="https://www.gammvert.fr/conseils/conseils-de-jardinage/lavande" class="button">En savoir plus</a>
 			</div>
 		</div>
 	</div>

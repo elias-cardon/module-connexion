@@ -47,23 +47,23 @@ if(isset($_POST['submit']))
 	</head>
 	<body class="color">
 		<!-- Header -->
-						<div id="header-wrapper">
-	<div id="header" class="container">
-		<div id="logo">
-			<h1><a href="#">Botanique</a></h1>
+		<div id="header-wrapper">
+			<div id="header" class="container">
+				<div id="logo">
+					<h1><a href="#">Botanique</a></h1>
+				</div>
+				<div id="menu">
+					<ul>
+						<li><a href="index.php" accesskey="1" title="">Page d'accueil</a></li>
+						<!-- <li><a href="inscription.php" accesskey="2" title="">Inscription</a></li> -->
+						<li><a href="connexion.php" accesskey="3" title="">Connexion</a></li>
+						<li><a href="#" accesskey="4" title="">++++++++++</a></li>
+						<li><a href="#" accesskey="5" title="">++++++++++</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
-		<div id="menu">
-			<ul>
-				<li><a href="index.php" accesskey="1" title="">Page d'accueil</a></li>
-				<!-- <li><a href="inscription.php" accesskey="2" title="">Inscription</a></li> -->
-				<li><a href="connexion.php" accesskey="3" title="">Connexion</a></li>
-				<li><a href="#" accesskey="4" title="">++++++++++</a></li>
-				<li><a href="#" accesskey="5" title="">++++++++++</a></li>
-			</ul>
-		</div>
-	</div>
-</div>
-			<!-- Main -->
+		<!-- Main -->
 		<main>
 			<h1>Inscription</h1><br/>
 				<form method="post" action="inscription.php">

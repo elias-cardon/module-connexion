@@ -19,7 +19,7 @@ if ($_SESSION['login']) {
 		<div id='menu'>
 			<ul=>
 				<li><a href='#' accesskey='1' title=''>Page d'accueil</a></li>
-				<li><a href='#' accesskey='2' title=''>++++++++++</a></li>
+				<li><a href='logout.php'>Se déconnecter</a></p></li>
 				<li><a href='#' accesskey='3' title=''>++++++++++</a></li>
 				<li><a href='#' accesskey='4' title=''>++++++++++</a></li>
 				<li><a href='#' accesskey='5' title=''>++++++++++</a></li>
@@ -37,9 +37,7 @@ if ($_SESSION['login']) {
 
 	<a href='changement_prenom.php'>Changer de prénom</a><br/>
 
-	<a href='changement_nom.php'>Changer de nom</a><br/>
-
-	<a href='logout.php'>Se déconnecter</a></p>";
+	<a href='changement_nom.php'>Changer de nom</a>";
 }
 else
 {
