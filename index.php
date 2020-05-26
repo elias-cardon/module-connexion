@@ -66,7 +66,7 @@
 	</div>
 </div>
 <div id="copyright">
-	<p>&copy; Botanique. Tous droits réservés. | 
+	<p>&copy; Botanique. Tous droits réservés. 
 </div>
 </body>
 </html>
