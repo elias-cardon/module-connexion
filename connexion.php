@@ -13,6 +13,11 @@ if (isset($_POST['submit'])) {
 			$_SESSION['login'] = $login;
 			header('Location:profil.php');
 		}
+
+		if ($login == 'admin'|| $login == 'admin' && $password == 'admin') { 
+			header('Location:admin.php');
+		}
+		
 		else
 		{
 			echo "Login ou password incorrect";
