@@ -20,9 +20,6 @@ if ($_SESSION['login']) {
 			<ul=>
 				<li><a href='#' accesskey='1' title=''>Page d'accueil</a></li>
 				<li><a href='logout.php'>Se déconnecter</a></p></li>
-				<li><a href='#' accesskey='3' title=''>++++++++++</a></li>
-				<li><a href='#' accesskey='4' title=''>++++++++++</a></li>
-				<li><a href='#' accesskey='5' title=''>++++++++++</a></li>
 			</ul>
 		</div>
 	</div>
